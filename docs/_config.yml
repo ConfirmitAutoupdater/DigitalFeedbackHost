@@ -17,7 +17,7 @@ title: DigitalFeedback Host
 email: digital.feedback@host.example
 description: >- # this means to ignore newlines until "baseurl:"
   DigitalFeedback Host description.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/DigitalFeedbackHost" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: username
 github_username: username
@@ -26,7 +26,7 @@ github_username: username
 markdown: kramdown
 theme: minima
 plugins:
-  - jekyll-feed
+#  - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
